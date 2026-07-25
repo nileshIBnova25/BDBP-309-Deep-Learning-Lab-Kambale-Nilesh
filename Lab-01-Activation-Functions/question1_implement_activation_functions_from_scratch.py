@@ -94,7 +94,7 @@ class Lab1ActivationFunction:
                             "Sigmoid Function & Its Derivative")
 
         self.plot_functions(self.softmax,
-                            self.softmax_derivative1,
+                            self.softmax_derivative2,
                             "Softmax Function",
                             "Derivative of Softmax ",
                             "Softmax function and its derivative")
