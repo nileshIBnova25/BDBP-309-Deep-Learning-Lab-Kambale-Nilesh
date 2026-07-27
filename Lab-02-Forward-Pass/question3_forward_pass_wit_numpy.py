@@ -71,10 +71,9 @@ class ForwardPass:
 def main():
     X=np.array([0.3,-1.2])
     cls = ForwardPass(X)
-    answer=cls.validate_by_class_example()
-    print(answer)
-    #a=cls.forward_pass()
-    #print(a)
+    #answer=cls.validate_by_class_example()
+    #print(answer)
+    a=cls.forward_pass()
 
 if __name__ == "__main__":
     main()

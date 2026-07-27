@@ -38,7 +38,7 @@ class ForwardPass:
                 config[f"bias{i + 1}"] = np.random.random(v)
         return config
 
-    def nuron_compute(self, w ,X, b):
+    def neuron_compute(self, w ,X, b):
         # dot product of X and weights w@X
         if w.ndim == 1 :
             w = np.array([w])
@@ -62,7 +62,7 @@ class ForwardPass:
         w = config[f"weight{current_layer}"]
         b = config[f"bias{current_layer}"]
         #a = self.sigmoid((w @ X) + b)
-        a = self.sigmoid(self.nuron_compute(w, X, b))
+        a = self.sigmoid(self.neuron_compute(w, X, b))
         print(a)
 
         if config['layers'] == current_layer:
