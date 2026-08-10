@@ -78,35 +78,6 @@ print(res_cls)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class Sigmoid:
     def __init__(self):
         pass
@@ -119,11 +90,4 @@ class Sigmoid:
         dat["mul_by_minus1"] = mul1
         exp =mul1*add
         dat["exp"] = exp
-
-
-
-
-
-
-
 
