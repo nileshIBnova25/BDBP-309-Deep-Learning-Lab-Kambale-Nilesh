@@ -55,12 +55,13 @@ class Neuron:
 a = np.array([-1,-2])
 w = np.array([2,-3,-3])
 b = np.array(0)
-grad= np.array([-1.25,1.1])
+grad= np.array([1])
 nn = Neuron(a,b,grad,w)
 res = nn.forward()
 print(res)
 res,b = nn.backward()
 print(res)
+
 
 
 
