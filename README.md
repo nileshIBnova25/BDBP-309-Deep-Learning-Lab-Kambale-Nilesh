@@ -1,1 +1,3 @@
-# BDBP-309-Deep-Learning-Laboratory 
+In God we trust, all others bring data.  
+
+-William Edward Deming (1900-1993)
