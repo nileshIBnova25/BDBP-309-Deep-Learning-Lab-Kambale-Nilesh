@@ -30,6 +30,7 @@ class BasicCNN(nn.Module):
         self.fc1 = nn.Linear(64 * 4 * 4,128)
         self.fc2 = nn.Linear(128,10)
     def forward(self,x):
+        print(f" shape dsad:f{x.shape}")
         x = self.pool(F.relu(self.conv1(x)))
         x = self.pool(F.relu(self.conv2(x)))
         x = x.view(-1, 64 * 4 * 4)
