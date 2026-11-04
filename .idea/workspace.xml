@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f1d9b02-c8fb-4237-bf61-7b79d8cc05cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab-014-Recurrent-Neural-Network/question1_Implement_vanilla_RNN_from_scratch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab-014-Recurrent-Neural-Network/question1_Implement_vanilla_RNN_from_scratch.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-014-Recurrent-Neural-Network/question1_Implement_vanilla_RNN_from_scratch.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.00_preprocessing_dataset.executor": "Run",
     "Python.bdbh303_gan.executor": "Run",
+    "Python.question1_Implement_vanilla_RNN_from_scratch.executor": "Run",
     "Python.question1_develop_a_model_to_predict_target_genes.executor": "Run",
     "Python.question1_gen_accessibility_prediction_using_cnn.executor": "Run",
     "Python.question1_implement_cnn_form_scratch.executor": "Run",
